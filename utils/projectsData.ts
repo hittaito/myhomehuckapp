@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     id: 'react',
     name: 'React',
@@ -21,5 +21,3 @@ const projects = [
     slug: 'gatsbyjs-gatsby',
   },
 ];
-
-module.exports = { projects };

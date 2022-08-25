@@ -11,18 +11,31 @@
     "test": "playwright test"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@influxdata/influxdb-client": "^1.28.0",
+    "@influxdata/influxdb-client-apis": "^1.28.0",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-date-fns": "^2.0.0",
+    "date-fns": "^2.29.2",
+    "framer-motion": "^6.5.1",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^12.1.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.20.0",
+    "@types/node": "^18.6.3",
+    "@types/react": "^18.0.15",
     "eslint": "^8.11.0",
     "eslint-config-next": "^12.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.0",
-    "serve": "^13.0.2"
+    "serve": "^13.0.2",
+    "typescript": "^4.7.4"
   }
 }
